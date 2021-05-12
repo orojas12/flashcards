@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Flashcards</string>
+    <string name="btnCreate">Create</string>
+    <string name="btnEdit">Edit</string>
+    <string name="btnCancel">Cancel</string>
+    <string name="btnSave">Save</string>
+    <string name="dialog_delete_flashcard">Delete this flashcard?</string>
+    <string name="dialog_confirm">Delete</string>
+    <string name="dialog_cancel">Cancel</string>
+    <string name="frontCardHint">Type a key term or question here...</string>
+    <string name="backCardHint">Type the definition or answer here...</string>
+    <string name="menu_item_view_source">View source</string>
+</resources>
