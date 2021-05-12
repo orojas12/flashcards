@@ -129,9 +129,12 @@ public class MainActivity extends AppCompatActivity {
                 Intent shuffleCardsIntent = new Intent(this, ShuffleCardsActivity.class);
                 shuffleCardsIntent.putExtra("CARDS", cardList);
                 startActivity(shuffleCardsIntent);
-                break;
+                return true;
             case R.id.menuViewSource:
-                Intent viewSourceIntent = new Intent(Intent.ACTION_VIEW, Uri.parse());
+                Intent viewSourceIntent = new Intent(Intent.ACTION_VIEW,
+                        Uri.parse("https://github.com/orojas12/flashcards"));
+                startActivity(viewSourceIntent);
+                return true;
             default:
                 return super.onOptionsItemSelected(item);
         }
